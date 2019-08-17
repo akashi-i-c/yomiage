@@ -294,7 +294,7 @@ int main(){
     for(i = 0 ; i < W_path_size ; i++){
         W_address[i] = W_path[i];
     }
-    for(i = 0 ; i < mozisu + 4 ; i++){
+    for(i = 0 ; i < mozisu + 5 ; i++){
         W_address[i + W_path_size] = wavname[i];
     }
     printf("%s\n",W_address);
